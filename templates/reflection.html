@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block body %}
+<br>
+<br>
+<br>
+    <div class="jumbotron" id="jumbotron">
+        <h1 class="display-4" style="font-weight: bold; font-size:40px;">Reflection</h1>
+        <hr>
+        <p>
+        Introduction to the project: <br>
+The project that our group chose to do is a video game, and a website about the game. The game should be the major part of the assignment, and the website should be the minor part of the assignment. 
+<br><br>
+The game: <br>
+The game that we designed is similar to an online game called “Soul knight”, the game is a shooting game, where the winning condition is to pass all levels in the game. There are multiple “rooms of enemies” in a level, and each room must be cleared of enemy before moving to the next one. Here is two screen shots of the game “Soul knight”:<br></p>
+<img src="{% static 'image/Reflection1.png' %}" width="50%" height="auto" style="margin:auto;">
+<img src="{% static 'image/Reflection2.png' %}" width="50%" height="auto" style="margin:auto;"><br>
+
+<br><p>Here are a screen shot of the game that we made: </p>
+<img src="{% static 'image/game.png' %}" width="50%" height="auto" style="margin:auto;"><br><br>
+<p>Here are a screen shot of the website that we made:</p>
+<img src="{% static 'image/web.png' %}" width="50%" height="auto" style="margin:auto;">
+
+<p>
+<br>
+Job distribution:<br>
+Aaron: Coding the website for the game, including a styled header, footer, a download page for the game and processing( the application that the game runs on). 
+<br>
+Peter:  Coding part of the game, find visuals and sound for the game. <br>
+Classes coded: enemyBullet, enemy, player, bullet, and part of the main class. <br>
+
+Ryan: Coding part of the game, and combining the Peter’s code with Ryan’s code. <br>
+Classes coded: Level creator, map, element, and rewrote part of Peter’s code. <br><br>
+
+Things that we are proud of: <br>
+Function implemented:
+<br>-	In the game, Ryan coded methods for spawning rooms and levels, making the game having a bit of randomness, not having the exact same map and room each time when a player is playing the game. 
+<br>-	In the game, Peter coded methods for updating the position of the enemy and the enemy’s bullet, this method involved calculating the angle between the player and the enemy, and adjusting the x value and the y value for the enemy and the enemy’s bullet so it will head directly towards the player. 
+<br>-	In the game, Ryan used different txt files to record down the information about each level and room, so when creating the levels, information does not need to be created with in the codes, they can be simply read and translate into codes. 
+<br>-	Aaron built a fully functional back end that allowed the user to signup, login and logout their account. Also, Aaron managed the website through an admin page (Framework Featured).
+<br>-	The game is downloadable through the website as a zip file, which showed my consideration to the users. Also, the Support and How To Play pages improve the user experience as well.
+<br><br>
+Troubles that we faced: <br>
+-	When we are dividing up the work of coding the game between Ryan and Peter, things were really rough, which resulted in when Ryan received Peter’s code and about to combine the two codes together, the difference in the coding habit resulted in Ryan not able to understand Peter’s code, which means that he will have to rewrite part of Peter’s code to make sure that the code is functioning properly. 
+<br>-	When we were getting started for the project, we had our individual issues that delayed the project, which resulted in that we did not have enough time to finish the project, and the game still remains incomplete. 
+<br>-	When Peter and Ryan were putting the game together, they did not have lots of communication, which resulted in that the game took a lot of time to be put together, and there isn’t a lot of time to work on the graphics. 
+</p>
+        
+    </div>
+
+{% endblock body %}

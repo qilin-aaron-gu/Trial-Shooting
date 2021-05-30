@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block body %}
+<br>
+    <div class="jumbotron slide" id="jumbotron">
+        <h1 class="display-4" style="font-weight: bold; font-size:40px;">A Starting Guide</h1>
+        <hr>
+        <h3>How to create your own map</h3>
+        <br>
+        <div id="container">
+            <div class="slider">
+                <div id="page">
+                    <h3>1. Open LevelCreator Admin</h3>
+                    <img src="{% static 'image/How1.png' %}" width="50%" height="auto" style="margin:auto;">
+                </div>
+
+                <div id="page">
+                    <h3>2. Select New or Load tab to create a new file or load a existing file.</h3>
+                    <img src="{% static 'image/How2.png' %}" width="50%" height="auto" style="margin:auto;">
+                </div>
+
+                <div id="page">
+                    <h3>3. Use the Help button to see detail of all the controls</h3>
+                    <img src="{% static 'image/How3.png' %}" width="50%" height="auto" style="margin:auto;">
+                </div>
+
+                <div id="page">
+                    <h3>4. Use all the controls to create different in-game elements</h3>
+                    <img src="{% static 'image/How4.png' %}" width="50%" height="auto" style="margin:auto;">
+                </div>
+
+                <div id="page">
+                    <h3>5. After your down, use the Save button to save the file.</h3>
+                    <img src="{% static 'image/How5.png' %}" width="50%" height="auto" style="margin:auto;">
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock body %}

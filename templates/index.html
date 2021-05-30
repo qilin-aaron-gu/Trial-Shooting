@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<br>
+<br>
+<div class="jumbotron main" id = "jumbotron">
+  <h1 style="margin-top:10%">Welcome to Trial Shooting!</h1>
+  <hr>
+  <p>Trial Shooting is an original second-person shooting game. It features the concise design and in-game flexibility for players. Download the game and start playing now!</p>
+  <p>Note that Reflection and Support information is only available once you login.</p>
+
+  <h2 style="margin:8% 0;text-align:center">EXPLORING</h2>
+  <figure id="feat">
+    <div class="explore">
+      <a class="hlink" href="{% url 'csg:download' %}">
+        <img src="https://www.phoca.cz/images/projects/phoca-download-r.png">
+        <h6>Download</h6>
+      </a>
+    </div>
+    <div class="explore">
+      <a class="hlink" href="{% url 'csg:how' %}">
+        <img src="https://www.pngkey.com/png/full/198-1981805_core-start-icon-start-logo-png.png">
+        <h6>Starting Guide</h6>
+      </a>
+    </div>
+    <div class="explore">
+      <a class="hlink" href="{% url 'login' %}">
+        <img src="https://www.logolynx.com/images/logolynx/4b/4beebce89d681837ba2f4105ce43afac.png">
+        <h6>User</h6>
+      </a>
+    </div>
+  </figure>
+</div>
+
+{% endblock body %}

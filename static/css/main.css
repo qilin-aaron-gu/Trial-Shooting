@@ -1,0 +1,191 @@
+body {
+    background-image: url("https://i.pinimg.com/736x/2d/e9/0d/2de90dee68dda501ac06cdd6ad61f0f3.jpg");
+    /*background-color: #eaeaea;*/
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-attachment: fixed;
+}
+
+#jumbotron{
+    background-color: rgba(255,255,255,0.95);
+    width: 100%;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+#outsideNav{
+    background-color: black;
+}
+
+
+#logo {
+    height: 65px;
+    width: auto;
+}
+
+#link {
+    color: white;
+    margin-left: 20px;
+}
+
+#dropd {
+    background-color: black;
+    margin-top: 9px;
+}
+
+#dropd a{
+    color: white;
+    text-align: center;
+}
+
+#link:hover{
+    color:chartreuse;
+}
+
+#dropd a:hover{
+    background-color: black;
+    color:chartreuse;
+}
+
+#user {
+    position: absolute;
+    float: right;
+    right: 2%;
+    color: white;
+}
+
+.content-background {
+    background-color: rgba(205, 205, 205, 0.9);
+    position: relative;
+    left: 5%;
+    right: 5%;
+    padding: 15px;
+    width: 90%;
+    border: none;
+    border-radius: 30px;
+}
+
+.note {
+    color: red;
+}
+
+.title{
+    text-align: center;
+}
+
+#footer {
+    background-color: black;
+    position: relative;
+    bottom: 0;
+    width: max-content;
+}
+
+#dlto {
+    margin-left: 30%;
+    margin-top: -25%;
+}
+
+
+#download a{
+	text-transform: uppercase;
+	width: 40%;
+    margin:2% 0;
+	padding: 15px 20px;
+	border: none;
+	border-radius: 5px;
+	background-color: rgba(42, 122, 38, 1);
+    color: white;
+	cursor: pointer;
+}
+
+#download a:hover{
+    text-decoration: none;
+    padding: 20px 25px;
+	background-color: rgba(38, 173, 31, 1);
+}
+
+
+#dltg {
+    margin-left: 0;
+}
+
+.main {
+    background-image: url('https://static.vecteezy.com/system/resources/previews/001/849/461/non_2x/soft-flat-abstract-shape-background-free-vector.jpg');
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.slide {
+    background-image: url('https://static.vecteezy.com/system/resources/previews/002/059/776/non_2x/abstract-shapes-background-free-vector.jpg');
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+#feat {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: auto;
+}
+
+.explore {
+    width: 30%;
+    display:column;
+    margin:auto;
+}
+
+.hlink{
+    text-decoration: none;
+    color:black;
+}
+
+.hlink:hover{
+    text-decoration: none;
+    color:green;
+}
+.explore img{
+    width:100%;
+}
+
+.explore h6{
+    text-align: center;
+    padding: 20px;
+}
+
+#container {
+    width: 85%;
+    margin: auto;
+}
+
+.slider button{
+    background-color: green;
+    border-radius: 20px;
+}
+
+.slider button:hover{
+    background-color: rgba(38, 173, 31, 1);
+    border-radius: 20px;
+}
+
+#page {
+    width:90%;
+    margin:auto;
+}
+
+.slider h3{
+    text-align: center;
+}

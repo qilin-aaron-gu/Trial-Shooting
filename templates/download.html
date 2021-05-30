@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<br>
+<br>
+<div id="download">
+<div class="jumbotron" id = "jumbotron">
+  <h1>Download Game Here!</h1>
+  <hr>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Processing_3_logo.png" width="30%" height="auto">
+  <div id="dlto">
+    <h4>Download Processing</h4>
+    <p style="width:85%">Processing is a flexible software sketchbook and a language for learning how to code within the context of the visual arts.
+    Processing is the platform that we used to build our game. Download it first to play the game.
+    </p>
+    <a href="https://processing.org/download/">Download Processing</a>
+  </div>
+  <br><br><br><br>
+  <img style="float:right;" src="https://is4-ssl.mzstatic.com/image/thumb/Purple114/v4/45/9d/27/459d277b-a591-e30b-16c1-cab01dce4340/electron.png/1200x630bb.png" width="30%" height="auto">
+  <div id="dltg">
+    <h4>Download Game</h4>
+    <p style="width:65%">Processing is a flexible software sketchbook and a language for learning how to code within the context of the visual arts.
+    Processing is the platform that we used to build our game. Download it first to play the game.
+    </p>
+    <a href="{% url 'csg:mac' %}" download>Download Mac Version</a>
+    <a href="{% url 'csg:windows' %}" download>Download Windows Version</a>
+  </div>
+  <br><br>
+</div>
+</div>
+
+{% endblock body %}
